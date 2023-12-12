@@ -10,3 +10,24 @@
 a {
   text-decoration: none;
 }
+
+::-webkit-scrollbar {
+  background: #1d1d1d;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFF;
+  border-radius: 5px;
+  border: 2px solid #1d1d1d;
+}
+
+/* Cor do "thumb" enquanto arrasta */
+::-webkit-scrollbar-thumb:active {
+  background-color: #166ae9;
+}
+
+::-webkit-scrollbar-scroll {
+  padding: 4px !important;
+  margin: 4px !important;
+}
