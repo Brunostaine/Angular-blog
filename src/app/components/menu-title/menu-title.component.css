@@ -1,0 +1,8 @@
+.container__menu__title {
+  color: #FFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #FFF;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
