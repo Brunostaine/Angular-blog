@@ -1,6 +1,7 @@
 
 <h1 align="center"> Blog</h1>
 
+![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM_ANDAMENTO&color=blue&style=for-the-badge)
   
 ## Descrição do projeto
 
