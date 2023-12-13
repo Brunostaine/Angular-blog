@@ -15,7 +15,7 @@
 
 ## 📁 Acesso ao projeto
 
-**Em breve...**
+**https://marvel-blog-angular.netlify.app/**
 
 ## Técnicas e tecnologias utilizadas
 
