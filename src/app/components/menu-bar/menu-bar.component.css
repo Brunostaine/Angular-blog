@@ -1,14 +1,25 @@
 .container__menu-bar ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  list-style: none;
 }
 
 .container__menu-bar ul li {
   text-decoration: none;
-  margin-right: 20px;
+  margin-bottom: 16px;
 }
 
 .container__menu-bar ul li a {
   color: #FFF;
+  font-size: 16px;
+}
 
+@media (min-width: 768px) {
+  .container__menu-bar ul {
+    flex-direction: row;
+  }
+
+  .container__menu-bar ul li {
+    margin-right: 25px;
+  }
 }
