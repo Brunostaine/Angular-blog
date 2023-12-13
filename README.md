@@ -1,6 +1,6 @@
 <h1 align="center"> Blog</h1>
 
-![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM_ANDAMENTO&color=blue&style=for-the-badge)
+![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=green&style=for-the-badge)
 
 ![capa](/src/assets/images/capa.png)
 
