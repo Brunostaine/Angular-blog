@@ -24,7 +24,6 @@
 * CSS
 * Mobile First
 
-
 ## Autor
 
 <img src="https://user-images.githubusercontent.com/87622645/157755137-8d22a951-d323-4c33-814e-c0351ebefafe.png" width=80><br>
