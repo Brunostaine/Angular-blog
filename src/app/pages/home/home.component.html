@@ -1,14 +1,27 @@
 <header>
-  <app-menu-bar></app-menu-bar>
+    <app-menu-bar></app-menu-bar>
 </header>
 <app-menu-title></app-menu-title>
 <div class="container__articles">
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card
+            [photoCover]="'https://i.pinimg.com/564x/aa/5b/52/aa5b524117299a392f07483189141ec0.jpg'"
+            [cardTitle]="'Saiu uma nova versão do angular'"
+            [cartDescription]="'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio eaque error quis autem repellendus, laborum adipisci fugiat esse vero facilis earum odit cum, ex praesentium.'"
+        ></app-big-card>
     </div>
     <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+            [photoCover]="'https://i.pinimg.com/564x/6a/e1/ea/6ae1ea50be76c8721a793fcfbf7455e2.jpg'"
+            [cardTitle]="'Saiu uma nova versão do angular'"
+        ></app-small-card>
+        <app-small-card
+            [photoCover]="'https://i.pinimg.com/564x/6a/e1/ea/6ae1ea50be76c8721a793fcfbf7455e2.jpg'"
+            [cardTitle]="'Saiu uma nova versão do angular'"
+        ></app-small-card>
+        <app-small-card
+            [photoCover]="'https://i.pinimg.com/564x/6a/e1/ea/6ae1ea50be76c8721a793fcfbf7455e2.jpg'"
+            [cardTitle]="'Saiu uma nova versão do angular'"
+        ></app-small-card>
     </div>
 </div>
