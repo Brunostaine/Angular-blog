@@ -9,6 +9,7 @@ export class BigCardComponent implements OnInit {
   @Input() photoCover: string = '';
   @Input() cardTitle: string = '';
   @Input() cartDescription: string = '';
+  @Input() id: string = '0';
 
   constructor() {}
 

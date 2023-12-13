@@ -1,27 +1,55 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
 <app-menu-title></app-menu-title>
 <div class="container__articles">
     <div class="articles__main">
         <app-big-card
-            [photoCover]="'https://i.pinimg.com/564x/aa/5b/52/aa5b524117299a392f07483189141ec0.jpg'"
-            [cardTitle]="'Saiu uma nova versão do angular'"
-            [cartDescription]="'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio eaque error quis autem repellendus, laborum adipisci fugiat esse vero facilis earum odit cum, ex praesentium.'"
+            [id]="'1'"
+            [photoCover]="'https://s.aficionados.com.br/imagens/poderes-1-0.jpg'"
+            [cardTitle]="'O Homem-Aranha'"
+            [cartDescription]="'Homem-Aranha é, sem dúvida, o personagem com mais sucesso...'"
+        ></app-big-card>
+        <app-big-card
+            [id]="'2'"
+            [photoCover]="'https://s.aficionados.com.br/imagens/verde-de-raiva-0.jpg'"
+            [cardTitle]="'O Incrível Hulk'"
+            [cartDescription]="'Ao contrário dos outros super-heróis, Bruce Banner é um personagem...'"
+        ></app-big-card>
+        <app-big-card
+            [id]="'3'"
+            [photoCover]="'https://s.aficionados.com.br/imagens/homem-de-ferro-f.jpg'"
+            [cardTitle]="'O Homem de Ferro'"
+            [cartDescription]="'Homem de Ferro é um personagem conhecido por ter...'"
         ></app-big-card>
     </div>
     <div class="articles__others">
         <app-small-card
-            [photoCover]="'https://i.pinimg.com/564x/6a/e1/ea/6ae1ea50be76c8721a793fcfbf7455e2.jpg'"
-            [cardTitle]="'Saiu uma nova versão do angular'"
+            [id]="'4'"
+            [photoCover]="'https://s.aficionados.com.br/imagens/doutor-estranho-7.jpg'"
+            [cardTitle]="'Doutor Estranho'"
         ></app-small-card>
         <app-small-card
-            [photoCover]="'https://i.pinimg.com/564x/6a/e1/ea/6ae1ea50be76c8721a793fcfbf7455e2.jpg'"
-            [cardTitle]="'Saiu uma nova versão do angular'"
+            [id]="'5'"
+            [photoCover]="'https://s.aficionados.com.br/imagens/black-panther-first-0.jpg'"
+            [cardTitle]="'Pantera Negra'"
         ></app-small-card>
         <app-small-card
-            [photoCover]="'https://i.pinimg.com/564x/6a/e1/ea/6ae1ea50be76c8721a793fcfbf7455e2.jpg'"
-            [cardTitle]="'Saiu uma nova versão do angular'"
+            [id]="'6'"
+            [photoCover]="'https://s.aficionados.com.br/imagens/poderes-habilidades-2-0.jpg'"
+            [cardTitle]="'Viúva Negra'"
+        ></app-small-card>
+        <app-small-card
+            [id]="'7'"
+            [photoCover]="'https://s.aficionados.com.br/imagens/thorblake-0.jpg'"
+            [cardTitle]="'Thor'"
+        ></app-small-card>
+        <app-small-card
+            [id]="'8'"
+            [photoCover]="'https://s.aficionados.com.br/imagens/professor-xavier2-0.jpg'"
+            [cardTitle]="'Professor Charles Xavier'"
+        ></app-small-card>
+        <app-small-card
+            [id]="'9'"
+            [photoCover]="'https://s.aficionados.com.br/imagens/marvel-magneto-xmen_cke.jpg'"
+            [cardTitle]="'Magneto'"
         ></app-small-card>
     </div>
 </div>
